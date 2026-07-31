@@ -1,16 +1,105 @@
-# React + Vite
+# Product Explorer Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Product Explorer Redux is a React application that allows users to browse products from the DummyJSON API, search for products, view detailed product information, and manage a favorites list using Redux Toolkit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse products from the DummyJSON API
+- Search products by keyword
+- View detailed product information
+- Add products to Favorites
+- Remove products from Favorites
+- Responsive design for desktop, tablet, and mobile
+- Custom 404 (Not Found) page
+- Redux Toolkit state management
+- React Router navigation
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- Redux Toolkit
+- React Router DOM
+- JavaScript (ES6+)
+- CSS3
+- DummyJSON API
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Rakeshk72/product-explorer-redux.git
+```
+
+Move into the project folder:
+
+```bash
+cd product-explorer-redux
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── features/
+│   ├── favorites/
+│   └── products/
+├── pages/
+├── services/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## GitHub Repository
+
+https://github.com/Rakeshk72/product-explorer-redux
+
+---
+
+## Author
+
+**Rakesh Kumar**
